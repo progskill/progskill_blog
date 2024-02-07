@@ -1,10 +1,9 @@
 {% extends 'base.html' %}
 
+{%block content %}
 
-{% block content%}
-
-<div>
-    <h1>This is a block content</h1>
-</div>
-
-{% endblock content%}
+    <div>
+        <h1>This is a Django content block</h1>
+        {% include 'personal/snippets/body_snippet.html' %}
+    </div>
+{%endblock content %}
