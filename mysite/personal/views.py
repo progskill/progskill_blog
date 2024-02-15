@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def home_screen(request):
- print(request.headers)
+    print(request.headers)
     # Passing Variables -  Method 1
 
 
