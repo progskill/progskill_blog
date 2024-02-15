@@ -6,6 +6,11 @@
 
         <!-- {{some_text}}
         {{some_number}} -->
+
+        {% for list_items in variable_list %}
+            {{list_items}}
+
+        {% endfor %}
         <h1>This is a Django content block</h1>
         {% include 'personal/snippets/body_snippet.html' %}
     </div>
