@@ -5,9 +5,17 @@
     <div>
 
         <!-- Variables -->
+        <h1> {{some_string}}</h1>
+        <h1> {{some_num}}</h1>
+       
 
 
         <!-- Passing list of Variables -->
+
+        {% for list_items in list_varaibles %}
+        {{list_items}}
+
+        {% endfor%}
 
         <h1>This is a Django content block</h1>
         {% include 'personal/snippets/body_snippet.html' %}
